@@ -2,7 +2,8 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 const port = process.env.PORT || 5000;
-// const nav= [                   //Part #2 Point 6
+//Part #2 Point 6
+// const nav= [                   
 //     {
 //         link:"/books",
 //         title:"Books"
@@ -56,6 +57,8 @@ app.get('/',function(req,res){
 
 
 
-app.listen(port,()=>{
-	console.log("Server Ready on 5000"); // Part #1 Point 5 
+app.listen(port, () => {
+	console.log("Server Ready on 5000"); // Part #1 Point 5
 });
+
+
