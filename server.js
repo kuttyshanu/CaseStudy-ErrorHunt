@@ -1,7 +1,7 @@
 const express = require('express'); 
 const path = require ('path'); 
 const cors = require('cors');
-const port = process.env.PORT || 5000;
+var port = process.env.PORT || 5000;
 //Part #2 Point 6
 // const nav= [                   
 //     {
