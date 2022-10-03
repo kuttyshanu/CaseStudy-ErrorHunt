@@ -1,19 +1,19 @@
 {
-  "name": "libraryexpress",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "ejs": "^2.7.4",
-    "express": "^4.17.1",
-    "mongoose": "^6.6.2"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "aiswarya",
-  "license": "ISC"
+	"name": "libraryexpress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"ejs": "^2.7.4",
+		"express": "^4.17.1",
+		"mongoose": "^6.6.2"
+	},
+	"scripts": {
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "aiswarya",
+	"license": "ISC"
 }
